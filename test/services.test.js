@@ -32,4 +32,6 @@ describe("Event Service",()=> {
         let eventService = new EventService(new EventRepository());
         expect(eventService.getEvents().length).toBe(3);
     })
+
+    
 });
